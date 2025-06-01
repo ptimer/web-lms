@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <h1 className="text-heading-02">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, harum rerum. Ipsam corporis nulla distinctio, aperiam recusandae consectetur aliquid similique perferendis quibusdam cumque modi totam, blanditiis sunt minima, nostrum repellat.</h1>
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
