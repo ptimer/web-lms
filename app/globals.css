@@ -19,7 +19,7 @@
 
 @theme inline {
   /* https://tailwindcss.com/docs/theme#using-a-custom-theme */
-  /* --*: initial; */
+  --*: initial;
   /* https://looka.com/blog/types-of-fonts/ */
   --font-body: var(--font-inter-sans);
 
