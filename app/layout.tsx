@@ -1,5 +1,7 @@
 // https://www.figma.com/design/IVN0OkzKw1yKr7ePwKbVEg/E-Tutor---Learning-Management-System--Community---Community-?node-id=2118-61474&p=f&t=H3riJBPBfRakVS33-0
 
+/* TODO: use 32x32 favicon as well */
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
