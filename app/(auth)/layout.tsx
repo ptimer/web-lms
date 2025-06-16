@@ -12,7 +12,7 @@ const AuthLayout = ({
     const isSignIn = pathname === "/sign-in";
 
     return (
-        <div className='relative h-screen flex flex-col'>
+        <div className='relative min-h-screen flex flex-col'>
             <AuthHeader variant={isSignIn ? "sign-in" : "sign-up"} />
             { children }
         </div>
