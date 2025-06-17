@@ -4,7 +4,7 @@ import Image from "next/image";
 const SignUpPage = () => {
   return (
     <main className="flex flex-1">
-        <div className="flex items-center w-full max-w-[52.25rem] bg-secondary-100">
+        <div className="flex items-center w-full max-w-836 bg-secondary-100">
             <Image
               src="/images/sign-up-illustration.svg"
               width={836}

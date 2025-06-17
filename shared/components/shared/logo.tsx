@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Logo = () => {
   return (
-    <div className="flex gap-2 items-center">
+    <div className="flex gap-8 items-center">
         <Image 
             src="/logo.png"
             alt="Logo"

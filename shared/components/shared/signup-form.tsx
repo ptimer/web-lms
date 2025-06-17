@@ -45,13 +45,13 @@ export const SignUpForm = () => {
   }
 
   return (
-    <div className="flex flex-col w-full max-w-[40.5rem]">
-        <h1 className="typo-heading-02 text-gray-900 text-center mb-10">Create your account</h1>
+    <div className="flex flex-col w-full max-w-648">
+        <h1 className="typo-heading-02 text-gray-900 text-center mb-40">Create your account</h1>
         <div>
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-              <div className="grid gap-4.5">
-                <div className="grid grid-cols-2 gap-4.5">
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-32">
+              <div className="grid gap-18">
+                <div className="grid grid-cols-2 gap-18">
                   <FormField
                     control={form.control}
                     name="firstname"
@@ -101,7 +101,7 @@ export const SignUpForm = () => {
                     </FormItem>
                   )}
                />
-               <div className="grid grid-cols-2 gap-4.5">
+               <div className="grid grid-cols-2 gap-18">
                   <FormField
                     control={form.control}
                     name="password"

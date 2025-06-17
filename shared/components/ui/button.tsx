@@ -15,7 +15,7 @@ const buttonVariants = cva(
           "text-primary-500 bg-primary-100 hover:text-primary-600 hover:bg-primary-200",
       },
       size: {
-        md: "h-12 px-6 typo-button-md",
+        md: "h-48 px-24 typo-button-md",
       },
     },
     defaultVariants: {
